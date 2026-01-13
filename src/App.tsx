@@ -29,7 +29,7 @@ const DynamicTitle: React.FC = () => {
 
 const AppRoutes: React.FC = () => (
   <Routes>
-    <Route path="/home" element={<Home />} />
+    <Route path="/" element={<Home />} />
     <Route path="/login" element={<Login />} />
     <Route path="/register" element={<Register />} />
   </Routes>
