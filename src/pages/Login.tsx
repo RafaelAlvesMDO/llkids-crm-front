@@ -1,6 +1,3 @@
-// import { useEffect } from "react";
-// import LoginCard from "../components/Login/LoginCard";
-// import AnimatedLogo from "../components/Login/AnimatedLogo";
 import LeftLayout from "../components/login/LeftLayout";
 import LoginForms from "../components/login/LoginForms";
 
