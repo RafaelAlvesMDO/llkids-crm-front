@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
+import Home from "./pages/Home";
 
 const titles: Record<string, string> = {
   "/": "Home",
@@ -28,6 +29,7 @@ const DynamicTitle: React.FC = () => {
 
 const AppRoutes: React.FC = () => (
   <Routes>
+    <Route path="/home" element={<Home />} />
     <Route path="/login" element={<Login />} />
     <Route path="/register" element={<Register />} />
   </Routes>
