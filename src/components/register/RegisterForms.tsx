@@ -157,7 +157,7 @@ const RegisterForms: React.FC = () => {
             disabled={loading}
             onClick={handleRegister}
             className="w-full bg-secondary-500 hover:bg-secondary-hover rounded-full p-3 
-          text-white font-bold shadow-md">
+          text-white font-bold shadow-md cursor-pointer">
             Cadastrar
           </button>
           <Link

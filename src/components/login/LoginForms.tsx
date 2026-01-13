@@ -80,7 +80,8 @@ const LoginForms: React.FC = () => {
           <button
           onClick={handleLogin}
           disabled={loading} 
-          className="w-full bg-secondary-500 hover:bg-secondary-hover rounded-full p-3 text-white font-bold shadow-md">
+          className="w-full bg-secondary-500 hover:bg-secondary-hover rounded-full p-3 
+          text-white font-bold shadow-md cursor-pointer">
             {loading ? "Entrando..." : "Entrar"}
           </button>
           <a
