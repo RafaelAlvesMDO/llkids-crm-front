@@ -32,7 +32,7 @@ const LoginForms: React.FC = () => {
 
         {/* BOTTOM - BUTTON AND FORGOT PASSWORD */}
         <div className="mt-8 flex flex-col items-center space-y-4">
-          <button className="w-full bg-secondary-500 hover:bg-secondary-hover rounded-full p-3 text-white shadow-md">
+          <button className="w-full bg-secondary-500 hover:bg-secondary-hover rounded-full p-3 text-white font-bold shadow-md">
             Entrar
           </button>
           <a
