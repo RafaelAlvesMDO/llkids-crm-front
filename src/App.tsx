@@ -9,11 +9,13 @@ import {
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Home from "./pages/Home";
+import ChildRegister from "./pages/ChildRegister";
 
 const titles: Record<string, string> = {
-  "/": "Home",
+  "/": "Página Inicial",
   "/login": "Login",
-  "/register": "Register",
+  "/register": "Cadastro",
+  "/child_register": "Cadastro - Criança"
   // More Routes Here
 };
 
@@ -32,6 +34,7 @@ const AppRoutes: React.FC = () => (
     <Route path="/" element={<Home />} />
     <Route path="/login" element={<Login />} />
     <Route path="/register" element={<Register />} />
+    <Route path="/child_register" element={<ChildRegister />} />
   </Routes>
 );
 
